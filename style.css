@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+#navbar {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  padding-left: 4%;
+  padding-right: 4%;
+  border: solid 1px black;
+  text-decoration: none;
+}
+#input-div {
+  margin: 3%;
+}
+#input-div > input {
+  width: 30%;
+}
+
+.container {
+  /* display: grid; */
+  /* grid-template-columns: repeat(3, 30%); */
+  margin: 1%;
+
+  padding-left: 4%;
+  padding-right: 4%;
+  /* grid-gap: 50px 20px; */
+}
+
+#error {
+  width: 60%;
+  margin-top: 50px;
+  margin-left: 100px;
+  text-align: center;
+}
+
+td {
+  background-color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 30px;
+}
+
+.water {
+  background-color: aqua !important;
+}
+
+.block {
+  background-color: yellow !important;
+}
+
+#outputcontainer {
+  margin-top: 10px;
+}
